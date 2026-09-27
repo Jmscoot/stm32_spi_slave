@@ -6,6 +6,8 @@
 - 패키지: LQFP64
 - SPI: SPI1, Slave, Full-Duplex, 8-bit
 - SPI 모드: Mode 0 (CPOL=0, CPHA=0), MSB first
+- CPOL=0: SCK 유휴 상태는 Low입니다.
+- CPHA=0: 첫 번째 클럭 에지에서 데이터를 샘플링합니다. Mode 0에서는 상승 에지에서 샘플링하고 하강 에지에서 데이터를 변경합니다.
 - 설정 도구: STM32CubeMX / STM32CubeIDE
 
 ## Pinout
